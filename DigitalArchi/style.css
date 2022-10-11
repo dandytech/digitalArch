@@ -1,0 +1,251 @@
+body{
+    margin:auto;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(231, 218, 218) !important;
+    /*Add below styles to prevent the scrolling
+     hence much absolute/relative elements*/
+     max-height: 100vh;
+     overflow: hidden;
+     width: 100%;
+}
+.main{
+    display: flex;
+    justify-content:space-evenly;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(229, 236, 236, 0.1)), url(/images/archi1.jpeg); background-size: 100% 100%; background-repeat:  no-repeat;
+    position: relative;
+    top:40px;
+    box-shadow: 1px 1px 3px;
+}
+.boxHolder{
+    width: 17%;
+    height: 90vh;
+    border: 1px solid white;
+}
+.downDivLeft{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background-color: white;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.downDivLeftBox1{
+    width: 50%;
+    padding-left: 5px;
+}
+.downDivLeftBox2{
+    width: 50%;
+    padding-left: 5px;
+}
+.downDivLeftBox1 p, .downDivLeftBox2 p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.downDivMiddle{
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    width: 33.4%;
+    height: 200px;
+    padding: 30px 60px 20px 20px;
+    font-size: 16px;
+    margin-left: 480px;
+}
+.downDivRight{
+    position: absolute;
+    bottom: 0;
+    background-color:blue;
+    width: 16.5%;
+    height: 400px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 2px 2px 0px rgb(189, 189, 159);
+}
+.downDivRightLinks{
+height: 300vh;
+padding-top: 30px;
+margin-top: 19px;
+bottom: 0px;
+padding-right: 30px;
+}
+.downDivRightLinks li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.downDivRightLinks li a{
+    text-decoration: none;
+   color:gray;
+}
+.downDivRightLinks li a:hover{
+    color: white;
+}
+.active{color:white !important;}
+
+.icon{
+    width: 50px;
+    background-color: white;
+    height: 8vh;
+    padding:15px 5px 5px 5px;
+    margin: auto;
+
+}
+.searchIcon{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border-radius: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.box5{
+    position: relative;
+}
+.plusIcon{
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.box1{
+    position: relative;
+}
+.emptyBox1{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+}
+.digital{
+    left: 100;
+    top:120px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    color: white;
+    font-size:60px;
+    margin-left: -6px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.digital p{
+    margin-top: -35px;
+    letter-spacing: 8px;
+    
+}
+.digital i{
+    font-size: 17px;
+    margin-left: 7px;
+    position: absolute;
+    margin-top: -10px;
+}
+.social{
+    width: auto;
+    font-size: 14px;
+    color: white;
+    transform: rotate(-90deg);
+    position: absolute;
+    left:-90px;
+    top:400px;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.indicatorIcons{
+    position: absolute;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    top:500px;
+    left:90px;
+}
+.box3{position: relative;}
+.icon1{
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.icon2{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15px;
+}
+.icon3a{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.icon3b{
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.getQuote{
+    position: absolute;
+    background-color: blue;
+    width: 14%;
+    height: 20px;
+    padding-bottom: -10;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    top:400px;
+}
+.getQuote div{
+   margin-top: -15px;
+}
+.getQuote a{
+    text-decoration: none;
+    color: white;
+}
+.bvl{
+    position: absolute;
+    top:10px;
+    left: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
